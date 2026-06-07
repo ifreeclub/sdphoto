@@ -10,7 +10,7 @@
 window.APP_CONFIG = {
   // Apps Script Web App 배포 URL
   // 배포 -> 새 배포 -> 웹 앱 생성 후 받은 URL
-  APPS_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbwdPhaeXwAHFR1zyyWeCNsXygPg4NqWNcYbHAMwa7GWVXuP-k8gPpZJGz70QmpGfR1f/exec',
+  APPS_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycby5do59iXXDhOXBqmJnU8hOoyoqWsVN2cg9RU-5akMKU7FttVzcP8m0yW5nNvXvAMYL/exec',
   /** APPS_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbzajp5eqN_CKR4qOd72JVHcGCsQjzsfj5hKbuDcEVrLzb-MPTMiaBUc6XTU3Sw-i-nuTg/exec',  **/
   /** APPS_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbyoHUG1NYMYKESNyPGEW3sOp4Bywn9cdO2ZZiaB6s4pKJIVMneCwRRzZqctKxjuwVHwcA/exec', **/
 
