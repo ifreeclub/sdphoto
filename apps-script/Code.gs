@@ -1,5 +1,5 @@
 /**
- * 미담사진관 손님용 태블릿 웹 백엔드
+ * 성동사진관 손님용 태블릿 웹 백엔드
  * Google Apps Script Web App - doGet/doPost JSON API
  *
  * v1.4.0 변경사항 (2026.04.20 3차 피드백):
@@ -26,8 +26,8 @@
 // 설정값
 // ============================================================
 const CONFIG = {
-  SHEET_ID: '11kcBZRYG1aqNn9qJEUqhHILy2sFTOSywZVOnUeLyi5k',
-  SHEET_NAME: '미담_앱접수',
+  SHEET_ID: '1yDBuRAcbUBAqyctl2bUb55IQSg0Dtn1pCNj00VZRueI',
+  SHEET_NAME: '성동_앱접수',
   API_TOKEN: 'midam-2026-secret-token',
   DEFAULT_STATUS: '촬영',
   EXCLUDE_STATUS: ['완료', '취소', '보완'],
@@ -37,7 +37,7 @@ const CONFIG = {
   // ==========================================================
   //
   // [고객 운영 맥락]
-  // 이 설정은 손님 태블릿 우측 "미담대기자" 리스트의 노출 순서를 제어합니다
+  // 이 설정은 손님 태블릿 우측 "성동대기자" 리스트의 노출 순서를 제어합니다
   //
   //   1) 평상시 (대부분의 날): 'asc' - 오래된순
   //      - 신규 손님이 하단에 노출됨
